@@ -1,0 +1,6 @@
+[user]
+  name = Una Kravets
+  email = una.kravets@gmail.com
+[core]
+  excludesfile = /Users/unakravets/.gitignore
+  editor = /usr/bin/vim
