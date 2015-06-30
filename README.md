@@ -4,14 +4,14 @@ Dotfiles and Configurations
 
 ## Index:
 
-- [Sublime](tree/master/SublimeText)
+- [Sublime](/SublimeText)
   - Sublime Plugin List
   - Preferences.sublime-settings
 - Terminal Setup (zsh)
-  - [.zshrc](blob/master/.zshrc) (links to [.aliases.sh](blob/master/.aliases.sh))
+  - [.zshrc](/.zshrc) (/links to [.aliases.sh](/.aliases.sh))
 - Git(hub)
-  - [.gitconfig](blob/master/.gitconfig)
-  - [.gitignore](blob/master/.gitignore)
-  - [.editorconfig](blob/master/.editorconfig)
+  - [.gitconfig](/.gitconfig)
+  - [.gitignore](/.gitignore)
+  - [.editorconfig](/.editorconfig)
 - Vim
-  - [.vimrc](blob/master/.vimrc)
+  - [.vimrc](/.vimrc)
