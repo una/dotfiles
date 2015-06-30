@@ -1,4 +1,4 @@
-ecommended Sublime Text Plugins:
+My Sublime Text (3) Plugins:
 
 To quickly install packages, first download and install [Package Control](http://packagecontrol.io)
 
