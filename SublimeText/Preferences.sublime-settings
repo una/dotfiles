@@ -1,4 +1,8 @@
 {
+  "added_words":
+  [
+    "enablement"
+  ],
   "bold_folder_labels": true,
   "caret_extra_bottom": 2,
   "caret_extra_top": 2,
@@ -30,7 +34,8 @@
   "match_brackets_content": true,
   "match_brackets_square": true,
   "tab_size": 2,
+  "theme": "Material-Theme-Darker.sublime-theme",
   "translate_tabs_to_spaces": true,
   "trim_trailing_white_space_on_save": true,
-  "word_wrap": true
+  "word_wrap": true,
 }
