@@ -8,6 +8,7 @@ Dotfiles and Configurations
   - [Sublime Plugin List](/SublimeText/sublime-plugins.md)
   - [Preferences.sublime-settings](/SublimeText/Preferences.sublime-settings)
   - [Material-Theme-Darker.sublime-theme](/SublimeText/Material-Theme-Darker.sublime-theme) (with alterations)
+  - [Typeface: Input Mono](http://input.fontbureau.com/download/)
 - Terminal Setup (zsh)
   - [.zshrc](/.zshrc) (/links to [.aliases.sh](/.aliases.sh))
 - Git(hub)
