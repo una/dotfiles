@@ -15,3 +15,4 @@ To quickly install packages, first download and install [Package Control](http:/
 - [SublimeLinter](https://packagecontrol.io/packages/SublimeLinter): Code linting in the editor (also install syntax-specific package add-ons, i.e. [Sass linting](https://packagecontrol.io/packages/SublimeLinter-contrib-scss-lint) & [JS](https://packagecontrol.io/packages/SublimeLinter-contrib-jslint))
 - [Material Theme](http://equinusocio.github.io/material-theme/): Makes the sidebar nicer
 - [Package Resource Viewer](https://packagecontrol.io/packages/PackageResourceViewer): Find package assets for editing
+- [Trailing Spaces](https://packagecontrol.io/packages/TrailingSpaces)
