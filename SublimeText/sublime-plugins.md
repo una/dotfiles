@@ -16,3 +16,4 @@ To quickly install packages, first download and install [Package Control](http:/
 - [Material Theme](http://equinusocio.github.io/material-theme/): Makes the sidebar nicer
 - [Package Resource Viewer](https://packagecontrol.io/packages/PackageResourceViewer): Find package assets for editing
 - [Trailing Spaces](https://packagecontrol.io/packages/TrailingSpaces)
+- [Seti UI](https://packagecontrol.io/packages/TrailingSpaces)

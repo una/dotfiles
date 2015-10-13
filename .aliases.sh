@@ -46,6 +46,16 @@ alias pg-gh="cd ~/Desktop/Dev/personal-goals &&
 alias Dev="~/Desktop/Dev"
 alias Blogs="~/Documents/Blogs"
 
+# create new week in review
+function pg-review() {
+  if [ $# -eq 0 ]; then
+      print "Oops. Please enter a file name: month-week (i.e. 11-week2"
+    else
+      cd ~/Desktop/Dev/personal-goals/accomplishments && touch 2015-"$1".md;
+      cat 0-review-template.md >> 2015-"$1".md && vim 2015-"$1".md;
+  fi
+}
+
 # install all the things
 alias start-project="bundle install && bower install && npm install"
 
