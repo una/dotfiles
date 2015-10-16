@@ -64,3 +64,9 @@ alias serve-me="python -m SimpleHTTPServer 8000"
 
 # let terminal speak for me with 's'
 alias s="say -v 'vicki'"
+
+# Kills all processes running on the specified port (e.g. 'killport 8080')
+killport() {
+  lsof -i tcp:$1 | awk '(NR!=1) && ($1!="Google") && ($1!="firefox") {print $2}' | xargs kill
+}
+
