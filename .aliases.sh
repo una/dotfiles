@@ -70,3 +70,14 @@ killport() {
   lsof -i tcp:$1 | awk '(NR!=1) && ($1!="Google") && ($1!="firefox") {print $2}' | xargs kill
 }
 
+# Open a Github pull request locally
+# usage: pr-me <ID> <branch-name>
+
+function pr-me() {
+  if [ $# -eq 0 ]; then
+      print "please enter the PR id and branch name to create it on. i.e. pr-me 54 branch-name"
+    else
+      git fetch origin pull/$1/head:$2;
+      git checkout $2
+  fi
+}
