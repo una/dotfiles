@@ -56,6 +56,17 @@ function pg-review() {
   fi
 }
 
+# add a thing to do the the following week
+# this function opens the newest accomplishments file in vim
+# nw stands for "next week"
+function pg-nw() {
+  if [ $# -eq 0 ]; then
+    cd ~/Desktop/Dev/personal-goals/accomplishments;
+    newestFile=$(ls -t | head -n1);
+    vim $newestFile;
+  fi
+}
+
 # install all the things
 alias start-project="bundle install && bower install && npm install"
 
