@@ -92,3 +92,6 @@ function pr-me() {
       git checkout $2
   fi
 }
+
+## Shruggie
+alias shruggie="printf \"¯\_(ツ)_/¯\" | pbcopy && echo \"¯\_(ツ)_/¯ copied to clipboard\""
