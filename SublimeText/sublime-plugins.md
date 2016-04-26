@@ -17,3 +17,4 @@ To quickly install packages, first download and install [Package Control](http:/
 - [Package Resource Viewer](https://packagecontrol.io/packages/PackageResourceViewer): Find package assets for editing
 - [Trailing Spaces](https://packagecontrol.io/packages/TrailingSpaces)
 - [Seti UI](https://packagecontrol.io/packages/TrailingSpaces)
+- [StringEncode](https://github.com/colinta/SublimeStringEncode)
