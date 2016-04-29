@@ -51,8 +51,8 @@ function pg-review() {
   if [ $# -eq 0 ]; then
       print "Oops. Please enter a file name: month-week (i.e. 11-week2"
     else
-      cd ~/Desktop/Dev/personal-goals/accomplishments && touch 2015-"$1".md;
-      cat 0-review-template.md >> 2015-"$1".md && vim 2015-"$1".md;
+      cd ~/Desktop/Dev/personal-goals/accomplishments && touch 2016-"$1".md;
+      cat 0-review-template.md >> 2016-"$1".md && vim 2016-"$1".md;
   fi
 }
 
@@ -95,3 +95,12 @@ function pr-me() {
 
 ## Shruggie
 alias shruggie="printf \"¯\_(ツ)_/¯\" | pbcopy && echo \"¯\_(ツ)_/¯ copied to clipboard\""
+
+## Download mp3 audio from Youbtube (need youtube-dl first)
+function get-audio() {
+  if [ $# -eq 0 ]; then
+      print "Oops. Please enter a url: get-audio <youtube-link>"
+  else
+    youtube-dl --extract-audio --audio-format mp3 $1
+  fi
+}
