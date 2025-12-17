@@ -6,15 +6,11 @@ function mkd() {
 # pretty visual git history
 alias git-pretty="git log --graph --oneline --all --decorate"
 
-# open up emoji cheat sheet in browser
-alias emojis="open http://www.emoji-cheat-sheet.com/"
-
 # restart window
 alias wtf="source ~/.zshrc"
 
 # open these directories from anywhere
 alias Dev="~/Desktop/Dev"
-alias Bustle="~/Desktop/Dev/Bustle"
 
 # install all the things
 alias start-project="bundle install && bower install && npm install"
@@ -44,15 +40,6 @@ function pr-me() {
 
 ## Shruggie
 alias shruggie="printf \"¯\_(ツ)_/¯\" | pbcopy && echo \"¯\_(ツ)_/¯ copied to clipboard\""
-
-## Download mp3 audio from Youbtube (need youtube-dl first)
-function get-audio() {
-  if [ $# -eq 0 ]; then
-      print "Oops. Please enter a url: get-audio <youtube-link>"
-  else
-    youtube-dl --extract-audio --audio-format mp3 $1
-  fi
-}
 
 # Removes all branches that have already been merged to master (or dev)
 alias clean-branches='git branch --merged | egrep -v "(^\*        |master|dev)" | xargs git branch -d'
